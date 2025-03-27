@@ -9,7 +9,7 @@ const userRoutes = require("./Routes/router");
 
 // CORS Configuration
 app.use(cors({
-    origin: ["http://localhost:3000"],
+    origin: ["http://localhost:3000", "https://test-war.netlify.app/"],
     credentials: true,
 }));
 
